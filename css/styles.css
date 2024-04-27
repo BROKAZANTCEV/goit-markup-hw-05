@@ -426,3 +426,6 @@ main {
 .soc-foot .svg-link:focus {
     background-color: #31d0aa;
 }
+input {
+    font-family: inherit;
+}
