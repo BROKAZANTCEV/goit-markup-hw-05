@@ -443,4 +443,15 @@ input {
     width: 75px;
     height: 24px;
     margin-bottom: 17px;
-    }
+}
+.form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: #2e2f42;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
