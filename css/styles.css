@@ -424,8 +424,9 @@ main {
     display: flex;
     gap: 16px;
 }
-.team-soc {
+.sub-soc {
     fill: #f4f4fd;
+    margin-left: 16px;
 }
 .soc-foot .svg-link:hover,
 .soc-foot .svg-link:focus {
@@ -443,9 +444,11 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    display: flex;
+    
     flex-direction: column;
-    margin-right: 24px;
+    margin-left: 80px;
+    
+    margin-bottom: 16px;
 }
 .sub-input {
     border: 1px solid #ffffff;
@@ -453,7 +456,7 @@ main {
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-top: 18px;
+    margin-right: ;
     background-color:#2e2f42;
     padding: 18px;
     color: #ffffff;
@@ -469,10 +472,12 @@ main {
     color: #ffffff;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     border: none;
 }
 
@@ -575,10 +580,10 @@ main {
 .form-icon {
     position: absolute;
     top: 50%;
-    left: 18px;
+    left: 16px;
     transform: translateY(-50%);
     fill: #2e2f42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 textarea {
