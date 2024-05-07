@@ -626,7 +626,7 @@ main {
 } */
 
 .form-group {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     border: 0;
 }
 
@@ -658,7 +658,7 @@ main {
 
 .form-wrap {
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-icon {
